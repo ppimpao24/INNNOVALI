@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inovali Consultoria em Alimentos</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #666666;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'DM Serif Display', serif;
+      color: #007692;
+      margin-top: 0;
+    }
+
+    header, section, footer {
+      padding: 20px;
+    }
+
+    nav {
+      background-color: #ffffff;
+      border-bottom: 1px solid #eee;
+      padding: 10px 20px;
+    }
+
+    nav a {
+      margin: 10px;
+      text-decoration: none;
+      font-weight: 500;
+      color: #007692;
+    }
+
+    .hero {
+      background: #f8f9fa;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .button {
+      background: #007692;
+      color: #F2F3F4;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 16px;
+      display: inline-block;
+      margin: 10px 0;
+    }
+
+    .button:hover {
+      background: #005f74;
+    }
+
+    .servico {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      background: #fafafa;
+    }
+
+    .whatsapp-fixo {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+    }
+
+    .carousel {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #999;
+      border-top: 1px solid #eee;
+      padding-top: 15px;
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Logo Inovali" style="height: 60px;">
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#solucoes">Soluções</a>
+    <a href="#clientes">Clientes</a>
+    <a href="#contato">Contato</a>
+    <a href="#blog">Blog</a>
+  </nav>
+</header>
+
+<section id="inicio" class="hero">
+  <h1>TRANSFORMAMOS DESAFIOS EM SOLUÇÕES PARA SEU NEGÓCIO!</h1>
+  <p>Conte com a Inovali para te orientar em cada passo rumo à conformidade e ao crescimento sustentável!</p>
+  <h3>Você se identifica com alguma dessas situações?</h3>
+  <ul style="list-style-type: '✔️ '; text-align: left; max-width: 600px; margin: 0 auto;">
+    <li>Dificuldade para regularizar sua empresa ou renovar a licença sanitária?</li>
+    <li>Precisa implantar BPF e não sabe por onde começar?</li>
+    <li>Medo de auditorias e fiscalizações?</li>
+    <li>Quer garantir segurança e confiança dos alimentos?</li>
+  </ul>
+  <br>
+  <a class="button" href="https://wa.me/seunumerodowhats" target="_blank">FALE COM UM ESPECIALISTA!</a>
+  <br>
+  <a class="button" href="#solucoes">Conheça nossas soluções</a>
+</section>
+
+<section id="sobre">
+  <h2>Sobre Nós</h2>
+  <p>Fundada em 2004 em Curitiba, a Inovali é formada por uma equipe multidisciplinar com engenheiros de alimentos, engenheiros químicos, nutricionistas e outros especialistas.</p>
+  <p>Atuamos com foco em indústrias de alimentos, restaurantes e serviços de alimentação. Nossa missão é promover inovação com qualidade, sustentabilidade e segurança.</p>
+  <p><strong>Elaine Falvo</strong>, fundadora e diretora técnica da Inovali, é Engenheira de Alimentos formada pela PUC-PR com pós-graduação em Gestão da Qualidade de Alimentos.</p>
+</section>
+
+<section id="solucoes">
+  <h2>TRABALHAMOS COM RESULTADOS ASSERTIVOS E MELHORIA CONTÍNUA!</h2>
+  <p>Nossa consultoria oferece soluções completas e personalizadas. Veja nossos serviços:</p>
+
+  <div class="servico"><strong>Responsabilidade Técnica:</strong> Regularize sua empresa e evite penalizações.</div>
+  <div class="servico"><strong>Gestão da Qualidade:</strong> Reduza desperdícios e aumente a satisfação.</div>
+  <div class="servico"><strong>Auditorias e Certificações:</strong> Garanta aprovação com preparação eficiente.</div>
+  <div class="servico"><strong>Conformidade com ANVISA e BPF:</strong> Alinhe seus processos às normas sanitárias.</div>
+  <div class="servico"><strong>Rotulagem Atualizada:</strong> Evite riscos legais e transmita confiança.</div>
+  <div class="servico"><strong>Gerenciamento de Alergênicos:</strong> Controle rigoroso e segurança ampliada.</div>
+  <div class="servico"><strong>Tabela Nutricional e Fichas Técnicas:</strong> Padronize receitas e otimize custos.</div>
+  <div class="servico"><strong>Desenvolvimento de Produtos:</strong> Lançamentos seguros e bem estruturados.</div>
+  <div class="servico"><strong>Análise de Shelf Life:</strong> Defina validade ideal e evite perdas.</div>
+  <div class="servico"><strong>Registro de Produtos:</strong> Comercialize com segurança jurídica.</div>
+  <div class="servico"><strong>Análises Sensoriais:</strong> Avalie aceitação e otimize receitas.</div>
+  <div class="servico"><strong>Treinamentos:</strong> Capacite sua equipe com qualidade.</div>
+
+  <p><strong>Regularização, segurança e crescimento: tudo começa com um clique!</strong></p>
+  <a class="button" href="https://wa.me/seunumerodowhats" target="_blank">Comece agora mesmo com quem entende do assunto!</a>
+</section>
+
+<section id="clientes">
+  <h2>Clientes</h2>
+  <p>Na INOVALI, sabemos que produzir alimentos exige mais que sabor: exige responsabilidade!</p>
+  <div class="carousel">
+    <div><img src="cliente1.jpg" alt="Cliente 1" width="150"></div>
+    <div><img src="cliente2.jpg" alt="Cliente 2" width="150"></div>
+    <div><img src="cliente3.jpg" alt="Cliente 3" width="150"></div>
+  </div>
+  <p>VOCÊ TAMBÉM PODE SER UM CASO DE SUCESSO! CONTE-NOS MAIS SOBRE SEU PROJETO!</p>
+  <a class="button" href="https://wa.me/seunumerodowhats" target="_blank">Fale conosco no WhatsApp</a>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p>Email: contato@inovali.com.br</p>
+  <p>Telefone: (41) XXXX-XXXX</p>
+  <p>Endereço: Curitiba – PR</p>
+</section>
+
+<section id="blog">
+  <h2>Blog da Inovali</h2>
+  <input type="text" placeholder="Buscar por título..." />
+  <div class="carousel">
+    <div><img src="post1.jpg" alt="Post 1" width="150"><p>Título do Post 1</p></div>
+    <div><img src="post2.jpg" alt="Post 2" width="150"><p>Título do Post 2</p></div>
+    <div><img src="post3.jpg" alt="Post 3" width="150"><p>Título do Post 3</p></div>
+  </div>
+  <br>
+  <a class="button" href="#sobre">CONHEÇA A INOVALI</a>
+</section>
+
+<a href="https://wa.me/seunumerodowhats" class="whatsapp-fixo" target="_blank">
+  <img src="whatsapp-icon.png" alt="WhatsApp" width="60" />
+</a>
+
+<footer>
+  <p>© 2025 Inovali Consultoria em Alimentos</p>
+</footer>
+
+</body>
+</html>
